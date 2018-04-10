@@ -1,0 +1,7 @@
+### Data File Summaries
+1.	Marshall_Course_Enrollment_1516_1617.xlsx: Last two years of schedules at Marshall, the times, departments, course numbers, max # of students allowed, and # of students enrolled.
+2.	Cancelled_Courses_1516_1617.xlsx: List of cancelled classes in last two years (important as at the time of initial scheduling, these needed to be accommodated).
+3.	Marshall_Room_Capacity_Chart.xlsx: Rooms within Marshall and max capacity for each. Certain classes may have been scheduled in rooms outside of Marshall, and the capacity of those rooms are not available in this data set.
+4.	Summary_Special_Session_Codes_1516_1617.xlsx: Explanation of session codes, which is a field in the first file that potentially links a course with a specialized program.
+5.	Department_Allocations_20171.xlsx: For spring 2017, the initial slots that each department was given to make their own initial allocations. (Current scheduling work flow is not centralized, but each department receives a set of slots based on last year’s allocation and allocate them first. Then there’s another round of centralized allocation to fill in remaining slots.)
+6.	Student_Course_Selection_1516_1617.xlsx: Anonymized student level data on what courses each Marshall student chose during these two years. This data can be used to determine courses that students often take together and therefore should not be in conflict with one another. One can also refer to Marshall course sequence for each program for additional information.
