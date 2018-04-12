@@ -30,6 +30,9 @@ import datetime
 
 class course_data:
     # Reading necessary files in from Raw Data file
+    prof_info = pd.read_excel(os.getcwd() + '\Raw Data\prof_info.xlsx')
+    prof_info.columns = ['Name', 'Department', 'Room', 'Building', 'Employment Status', 'Role',
+                         'Promotion', 'First_Name', 'Last_Name', 'First Instructor UID']
     
     # Section to cleaning enrollment data
     enroll_cols = ['Course', 'Course Prefix', 'Course Suffix', 'Department', 'First Instructor UID',
@@ -47,6 +50,15 @@ class course_data:
     enrolls = enrolls.reset_index()[enrolls.columns]
     enrolls['First Days'] = enrolls['First Days'].replace(to_replace=['TH','SU'], value=['H','U'])
     enrolls['Second Days'] = enrolls['Second Days'].replace(to_replace=['TH','SU'], value=['H','U'])
+    enrolls = enrolls[enrolls['First Instructor UID'].isnull() == False].merge(prof_info, on = 'First Instructor UID', how = 'inner').reset_index()
+    enrolls['Class Length'] = np.nan
+    for idx, row in enrolls.iterrows():
+        beg_hour = row['First Begin Time'].hour
+        beg_min = row['First Begin Time'].minute
+        end_hour = row['First End Time'].hour
+        end_min = row['First End Time'].minute
+        enrolls.loc[idx,'Class Length'] = np.round(2*((end_hour - beg_hour) + (end_min - beg_min)/60))/2
+    
     
     # Reading in secondary data
     cancels = pd.read_excel(os.getcwd() + '\Raw Data\Cancelled_Courses_1516_1617.xlsx')
