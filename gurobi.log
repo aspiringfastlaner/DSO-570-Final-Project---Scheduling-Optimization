@@ -283,3 +283,59 @@ Solution count 7: 1543.11 1542.59 1541.28 ... 1112.96
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.543106550873e+03, best bound 1.543106550873e+03, gap 0.0000%
+Optimize a model with 124716 rows, 57442 columns and 278040 nonzeros
+Variable types: 0 continuous, 57442 integer (57442 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [4e-02, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 238.1600698
+Presolve removed 124427 rows and 56696 columns
+Presolve time: 0.15s
+Presolved: 289 rows, 746 columns, 1893 nonzeros
+Found heuristic solution: objective 639.9504516
+Variable types: 0 continuous, 746 integer (746 binary)
+
+Root relaxation: objective 6.404490e+02, 175 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     640.4490271  640.44903  0.00%     -    0s
+
+Explored 0 nodes (175 simplex iterations) in 0.28 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 640.449 639.95 399.554 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.404490271350e+02, best bound 6.404490271350e+02, gap 0.0000%
+Optimize a model with 124716 rows, 57442 columns and 278040 nonzeros
+Variable types: 0 continuous, 57442 integer (57442 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [4e-02, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 515.6980288
+Presolve removed 124427 rows and 56696 columns
+Presolve time: 0.16s
+Presolved: 289 rows, 746 columns, 1893 nonzeros
+Found heuristic solution: objective 710.3365010
+Variable types: 0 continuous, 746 integer (746 binary)
+
+Root relaxation: objective 7.108351e+02, 354 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     710.8350765  710.83508  0.00%     -    0s
+
+Explored 0 nodes (354 simplex iterations) in 0.32 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 710.835 710.337 598.785 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.108350764909e+02, best bound 7.108350764909e+02, gap 0.0000%
