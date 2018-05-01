@@ -240,3 +240,46 @@ Solution count 4: 1083.18 1082.85 1080.19 807.681
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.083179047208e+03, best bound 1.083179047208e+03, gap 0.0000%
+Optimize a model with 257524 rows, 133210 columns and 623528 nonzeros
+Variable types: 0 continuous, 133210 integer (133210 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [5e-02, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 603.9469563
+Presolve removed 255772 rows and 127595 columns
+Presolve time: 0.96s
+Presolved: 1752 rows, 5615 columns, 24660 nonzeros
+Found heuristic solution: objective 1527.8180817
+Variable types: 0 continuous, 5615 integer (5615 binary)
+
+Root relaxation: objective 1.544301e+03, 1394 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1544.30104    0   52 1527.81808 1544.30104  1.08%     -    1s
+H    0     0                    1538.9052878 1544.30104  0.35%     -    1s
+H    0     0                    1541.2402260 1544.30104  0.20%     -    1s
+     0     0 1544.17346    0   31 1541.24023 1544.17346  0.19%     -    1s
+     0     0 1544.17346    0   50 1541.24023 1544.17346  0.19%     -    1s
+     0     0 1544.17346    0   53 1541.24023 1544.17346  0.19%     -    1s
+H    0     0                    1541.2761737 1544.17346  0.19%     -    1s
+     0     0 1543.73988    0   53 1541.27617 1543.73988  0.16%     -    1s
+     0     0 1543.10800    0   42 1541.27617 1543.10800  0.12%     -    1s
+H    0     0                    1542.5860381 1543.10800  0.03%     -    2s
+*    0     0               0    1543.1065509 1543.10655  0.00%     -    2s
+
+Cutting planes:
+  Gomory: 3
+  Clique: 17
+  Zero half: 7
+
+Explored 1 nodes (4470 simplex iterations) in 2.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 7: 1543.11 1542.59 1541.28 ... 1112.96
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.543106550873e+03, best bound 1.543106550873e+03, gap 0.0000%
