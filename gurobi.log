@@ -529,3 +529,54 @@ Solution count 0
 
 Model is infeasible
 Best objective -, best bound -, gap -
+Optimize a model with 582602 rows, 304440 columns and 1423832 nonzeros
+Variable types: 0 continuous, 304440 integer (304440 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [4e-02, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 570858 rows and 269773 columns
+Presolve time: 0.85s
+
+Explored 0 nodes (0 simplex iterations) in 1.74 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 408503 rows, 211173 columns and 987675 nonzeros
+Variable types: 0 continuous, 211173 integer (211173 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [4e-02, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 398210 rows and 187468 columns
+Presolve time: 0.44s
+
+Explored 0 nodes (0 simplex iterations) in 1.10 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 582602 rows, 304440 columns and 1423832 nonzeros
+Variable types: 0 continuous, 304440 integer (304440 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [4e-02, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 570858 rows and 269773 columns
+Presolve time: 0.40s
+
+Explored 0 nodes (0 simplex iterations) in 1.12 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
